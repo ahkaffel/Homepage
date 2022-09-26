@@ -8,7 +8,7 @@ p {text-align: left;}
 body, {
 	margin: 0;
 	padding: 0;
-	background-image:url(background.jpg);
+	background-image:url(background.png);
 	text-align: left;
 	font-family: Georgia, Times New Roman, Times, serif;
 	font-size: 13px;
@@ -30,13 +30,14 @@ p {text-align: left;}
 
 .header-img {
   width: 100%;
-  height: 170px;
-  background: url(logo1.png);
+  height: 150px;
+  background: url(header_image.jpg);
   background-size: cover;
 }
 
 .dotted_line
 {
+background-image:url(dotted_line.png);
 background-repeat:no-repeat;
 clear:both;
 width:916px;
@@ -48,7 +49,7 @@ margin-top:10px;
 
 #header
 {
-background-image:url(UWM.gif);
+background-image:url(header.png);
 background-repeat:no-repeat;
 width:950px;
 
@@ -62,7 +63,7 @@ display:block;
 	overflow:hidden;
 	width:950px;
 	float:center;
-	background: #400000;
+	background: #003366;
 }
 #header ul li, #header ul li a, #header ul li a:visited{
 	float:left;
@@ -99,7 +100,6 @@ color:#364C59;
 #main h4
 {
 color:#800000;
-text-align: justify;
 }
 
 #main ul li
@@ -150,11 +150,11 @@ margin-top: 20px;
 height:auto;
 width:450px;
 background-repeat:repeat-y;
-color:#400000;
+color:#364C59;
 margin-top: 8px;
 float:left;
 text-align: justify;
-border: 3px double;
+border: 3px double gray;
 border-radius: 12px;
 }
 
@@ -211,7 +211,7 @@ text-align: justify;
   position: relative; 
   overflow: hidden; 
   width: 950px;
-  background: #EFB700;
+  background: #e1f5fe;
   margin-bottom:35px;
   
 }
